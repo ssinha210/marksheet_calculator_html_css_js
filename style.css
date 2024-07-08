@@ -1,25 +1,18 @@
-body{
-    
-    background:
-linear-gradient(63deg, #999 23%, transparent 23%) 7px 0,
-linear-gradient(63deg, transparent 74%, #999 78%),
-linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%),
-#444;
-background-size: 16px 48px;
-
-    background-repeat: no-repeat;
+body{background: rgb(118,42,199);
+    background: linear-gradient(90deg, rgba(118,42,199,1) 0%, rgba(64,72,212,1) 19%, rgba(48,186,191,1) 37%, rgba(48,196,62,1) 52%, rgba(193,194,84,1) 71%, rgba(215,161,73,1) 87%, rgba(237,49,88,1) 100%);
+    /*background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover;*/
 }
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(12, 10, 10);
     border-radius: 10px;
   }
 
 table{
     width: 80%;
     margin: 40px auto;
-    background: rgb(124,154,167);
+    background: rgb(180, 194, 240);
 }
 
 table.list{
@@ -28,13 +21,13 @@ table.list{
 }
 
 td{
-    border: 1px solid rgb(204,200,200);
+    border: 1px solid rgb(0, 0, 0);
     text-align: left;
     padding: 8px 15px;
 }
 
 tr:nth-child(even), table.list thread> tr{
-    background-color: rgb(204,200,200);
+    background-color: rgb(255, 255, 255);
 }
 
 input[type="text"],input[type="number"]{
@@ -42,7 +35,7 @@ input[type="text"],input[type="number"]{
     padding:12px 20px;
     margin:8px 0;
     display: inline-block;
-    border: 1px solid rgb(165,161,161);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 4px;
 }
 

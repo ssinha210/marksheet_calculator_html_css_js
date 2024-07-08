@@ -84,3 +84,12 @@ function resetForm() {
 
     selectedRow = null;
 }
+
+var tbl = document.getElementById('storeList');
+        if (tbl.rows.length == 2) {
+            console.log('IT WORKED')
+            .style.display = 'none';           // Hide
+
+            
+        }
+        console.log(tbl.rows.length);
