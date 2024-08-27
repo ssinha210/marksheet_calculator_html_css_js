@@ -1,8 +1,5 @@
-body{background: rgb(118,42,199);
-    background: linear-gradient(90deg, rgba(118,42,199,1) 0%, rgba(64,72,212,1) 19%, rgba(48,186,191,1) 37%, rgba(48,196,62,1) 52%, rgba(193,194,84,1) 71%, rgba(215,161,73,1) 87%, rgba(237,49,88,1) 100%);
-    /*background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;*/
+body{background: black);
+
 }
 table, th, td {
     border: 1px solid rgb(12, 10, 10);
